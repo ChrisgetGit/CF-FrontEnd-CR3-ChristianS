@@ -1,0 +1,18 @@
+var teamMembers = 
+`[
+	{
+	"name":"Fran", 
+	"email":"fran@index.com",
+	"img":"img/person1.jpg"
+},
+	{
+	"name":"Bill",
+	"email":"bill@index.com",
+	"img":"img/person2.jpg"
+},
+	{
+	"name":"Fritz",
+	 "email":"fritz@index.com",
+	"img":"img/person3.jpg"
+}
+]`;

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	  <title>CF-CR03-ChristianS</title>
+	  <link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body >
+		<header>
+			<div class= "headerpics">
+			  	<img id = "firstheadpic" src="img/logo.png" alt="logo">
+			  		
+			  	<img id = "secondheadpic" src="img/banner.png" alt="logo">
+			</div>
+			<nav>
+				<ul id="ulhead">
+					 <a href="index.html"><li >Home</li></a>
+					 <a href="team.html"><li>Team</li></a>             
+				</ul>
+			</nav>
+		</header>
+		<div id= "teampage">
+			
+
+		</div>
+		<div id= "team-member">
+		</div>
+		<footer>
+			<nav>
+				<ul id="ulfooter">
+					 <a href="index.html"><li >Home</li></a>
+					 <a href="team.html"><li>Team</li></a>	                
+				</ul>
+			</nav>
+			<img id = "footerlogo" src="img/logo-inv.png" alt="logo">
+			<p>ChristianS-CodeFactory 2021</p>
+		</footer>
+
+		<script src="team.json" ></script>
+		<script >
+			var myData = JSON.parse(teamMembers);
+			console.table(myData);
+			
+
+			function showTeam (){
+				for (var i = 0; i< myData.length; i++){
+					document.getElementById("team-member").innerHTML += "<br><hr><img class='img' src="+myData[i].img+">";
+					for (x  in myData[i])
+						document.getElementById("team-member").innerHTML += `<li>` +myData[i][x] + "</li><br>";
+					}
+				}
+			
+
+			showTeam();
+
+		</script>
+	</body>
+
+</html >

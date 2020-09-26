@@ -1,0 +1,274 @@
+
+body {
+  
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding: 1vw;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+
+}
+
+
+
+.headerpics {
+	display: flex;
+	min-width: 80%;
+	justify-content: space-between;
+	padding: 2vw;
+	align-items: center;	
+	
+}
+#firstheadpic{
+	width: 20%;
+	height: 15%;
+}
+#secondheadpic{
+	width: 65%;
+}
+
+#ulhead{
+	display: flex;
+	list-style: none;
+	background-color: darkred;
+}
+#ulhead li{
+	color: white;
+	font-size: 2vw;
+	padding: 1vw;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+#background{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	background-image: url("../img/traffic.jpg");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	height: 55vw;
+  	width: 80vw;
+}
+
+#background h1{
+	position: relative;
+	top: 3vw;
+	color: white;
+	padding-left: 2vw;
+	font-size: 3vw;
+}
+
+
+#transparentPart{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 70vw;
+	min-height: 45vw;
+	margin: auto;
+	background-color: white;
+	bottom: 04vw;
+	opacity: 0.8;
+	border: 0.2vw solid black;
+}
+
+
+
+#grayField {	
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 80vw;
+	background-color: lightgray;
+	text-align: center;	
+	font-size: 2vw;
+}
+
+#grayField h2{
+	position: relative;
+	top: 4.5vw;
+}
+
+#formpart {
+	position: relative;
+	display:  flex;
+	margin: auto;
+	flex-wrap: wrap;	
+	align-items: center;
+	width: 70%;
+	top: 04vw;
+	height: 35vw;
+
+}
+
+#formpart input{
+
+	width: 18vw;
+	height: 3vw;
+	margin: 2vw;
+	font-size: 3vw;	
+	border: 1px solid black;
+
+}
+#formpart p{
+	font-weight: bold;
+	font-size: 1.4vw;
+}
+form{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 1vw;
+	
+	bottom: 49vw;
+	
+}
+
+#select {
+	margin: 2vw;
+	width: 18.5vw;
+	border: 1px solid black;
+	font-size: 1.5vw;
+}
+
+
+
+#submit {
+	background-color: green;
+	position: relative;
+	border-radius: 1vw;
+	min-height: 4vw;
+	left: 17.5vw;
+	bottom: 50vw;
+	color: white;
+}
+
+#formpart h2{
+	left: 14vw;
+	position: relative;
+	bottom: 50vw;
+	text-align: center;
+	font-size: 2.5vw;
+}
+
+#name {
+	position: absolute;
+	bottom: 12.4vw;
+	left: 8vw;
+}
+
+#age{
+	position: absolute;
+	bottom:  12.4vw;
+	right: 23vw;
+}
+#country {
+	position: absolute;
+	top:  7vw;
+	left: 8vw;
+}
+#horse {
+	position: absolute;
+	top:  7vw;
+	right: 9vw;
+}
+
+#result{
+	position: relative;
+	margin: 1vw;
+	bottom:  52vw;
+	font-size: 2.5vw;
+	text-align: center;
+	color: green;
+
+}
+
+#shadowedPart {
+
+	display: flex;
+	width: 70%;
+	padding-top: 3vw;
+	margin: auto;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.shadowtext{
+	
+	border-left: 0.2vw solid #DCDCDC;
+	border-right: 0.2vw solid #DCDCDC;
+	border-bottom:  0.2vw solid #DCDCDC;
+	border-top: 0.2vw solid black;
+	box-shadow: 0.5vw lightgray;
+	padding: 0.5vw;
+	width: 25vw;
+
+}
+.shadowtext li{
+	position: relative;
+	list-style: none;
+	right: 2vw;
+	bottom: ; 
+}
+.shadowtext li:before{
+	position: relative;
+	content:'\2713';
+	display:inline-block;
+	padding:0 6px 0 0; 
+	color: green;
+	}
+
+
+.bottomshadow{
+	color: gray;
+}
+
+.bottomshadow b{
+	color: black;
+}
+
+footer {
+	position: relative;
+	top: 4vw;
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+}
+
+footer ul{
+	background-color: black;
+}
+
+
+
+footer img{
+	position: relative;
+	left: 65vw;
+	width: 20%;
+	height: 15%;
+
+}
+
+footer p{
+	position: relative;
+	left: 35vw;
+	color: white;	
+}
+
+#ulfooter{
+	display: flex;
+	list-style: none;
+	
+}
+#ulfooter li{
+	color: white;
+	font-size: 2vw;
+	padding: 1vw;
+}
+
