@@ -39,10 +39,10 @@ function calculateInsurance() {
   			console.log(insurance);
   			document.getElementById("result").innerHTML = name + " your insurance costs: " + Math.trunc(insurance) + ",- EUR";
   			break;	
-  		default:
+  		case 0:
     		document.getElementById("result").innerHTML = "Please Enter ALL Data";
-	}
-    console.log(customer);
+    		break;	}
+    
     
              
  
